@@ -22,7 +22,7 @@ function Registration() {
     setIsSubmit(true);
     if (isSubmit === true) {
       try {
-        let res = await axios.post(`${env.API_URL}/users/reset-password`, formValues);
+        let res = await axios.post(`${env.API_URL}/users/register`, formValues);
         console.log(res.data);
         if (res) {
           setMessage(true);
