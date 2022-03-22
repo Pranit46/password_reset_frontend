@@ -1,0 +1,6 @@
+.container_wrapper {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
